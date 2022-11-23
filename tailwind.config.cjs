@@ -8,7 +8,8 @@ module.exports = {
     extend: {
       colors: {
         primaryBlue: "#1500a1",
-        borderFooter: "#00dcc9"
+        borderFooter: "#00dcc9",
+        textColor: "#6f6366"
       },
       minWidth: {
         '14r': '14rem',
