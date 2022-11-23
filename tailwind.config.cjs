@@ -15,7 +15,8 @@ module.exports = {
       },
       backgroundImage: {
         'back-img': "url('./src/assets/content/bg-content.jpg')",
-      }
+      },
+      display: ["group-hover"],
     },
   },
   plugins: [],
