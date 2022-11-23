@@ -28,9 +28,10 @@ Novopayment technical test for Front web
 
 | Project               | Description                                             |
 | --------------------- | ------------------------------------------------------- |
-| [vite]                | build tool                                              |
-| [tailwindcss]         | CSS framework                                           |
+| [vite]                | build tool.                                             |
+| [tailwindcss]         | CSS framework.                                          |
 | [vue-i18n]            | internationalization plugin of Vue.js.                  |
+| [vitest]              | unit test framework.                                    |
 
 
 ## Initialize project locally
@@ -40,4 +41,11 @@ Novopayment technical test for Front web
   - or
 1. `yarn`
 2. `yarn dev` and play with the local dev environment.
+
+
+## Initialize unit test
+
+1. `npm run test`
+  - or
+1. `yarn test`
 
