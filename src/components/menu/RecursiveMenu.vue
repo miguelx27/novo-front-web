@@ -2,7 +2,7 @@
   <div class="tree-menu group relative">
     <!-- label node parent -->
     <div :style="indent" :class="depth !== 0 ? 'border-b border-gray-500 px-8 py-2': ''" class="whitespace-nowrap text-textColor text-lg ">{{ $t(label) }}</div>
-    <div v-if="nodes.length" :class="depth == 0 ? 'absolute hidden group-hover:block bg-white top-10 border-2 border-gray-400 rounded-b-md': ''">
+    <div v-if="nodes.length" :class="depth == 0 ? 'absolute opacity-0 group-hover:opacity-100 invisible group-hover:visible bg-white top-10 border-2 border-gray-400 rounded-b-md transition-all ease-in-out duration-500': ''">
       <!-- @for of child nodes -->
       <div
       v-for="item, index in nodes"

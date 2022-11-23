@@ -9,7 +9,7 @@
       <!-- @for of elements in list of service -->
       <div
       v-for="item, name, index2 in value"
-      class="px-3 py-2 cursor-pointer hover:border-primaryBlue border-transparent border-b-4 relative group"
+      class="px-3 py-2 cursor-pointer hover:border-primaryBlue border-transparent border-b-4 relative group transition ease-in-out duration-500"
       :key="index2+ '-' + name">
           <!-- Call component recursive menu 
           props nodes array | object label name  and depth init -->
