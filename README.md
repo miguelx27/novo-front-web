@@ -29,8 +29,8 @@ Novopayment technical test for Front web
 | Project               | Description                                             |
 | --------------------- | ------------------------------------------------------- |
 | [vite]                | build tool                                              |
-| [tailwindcss]         | Large-scale state management                            |
-| [vue-i18n]            | Project scaffolding                                     |
+| [tailwindcss]         | CSS framework                                           |
+| [vue-i18n]            | internationalization plugin of Vue.js.                  |
 
 
 ## Initialize project locally
