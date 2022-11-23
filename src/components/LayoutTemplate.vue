@@ -6,6 +6,9 @@
   </div>
 </template>
 <script setup>
+/**
+ * Components for the view.
+ */
 import Footer from '../components/Footer.vue';
 import Header from '../components/header/Header.vue'
 </script>
