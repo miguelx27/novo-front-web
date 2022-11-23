@@ -12,6 +12,9 @@ module.exports = {
       },
       minWidth: {
         '14r': '14rem',
+      },
+      backgroundImage: {
+        'back-img': "url('./src/assets/content/bg-content.jpg')",
       }
     },
   },

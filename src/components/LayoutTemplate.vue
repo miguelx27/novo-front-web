@@ -3,6 +3,7 @@
     <div>
       header
     </div>
+    <div class="h-full bg-back-img bg-repeat-x"></div>
     <Footer />
   </div>
 </template>
